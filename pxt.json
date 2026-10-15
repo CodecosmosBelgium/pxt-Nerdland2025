@@ -12,6 +12,7 @@
         "main.ts",
         "custom.ts",
         "t_level1.md",
+        "t_kermis.md",
         "t_no_ex.md"
     ],
     "testFiles": [
