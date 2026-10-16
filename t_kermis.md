@@ -3,7 +3,7 @@
 
 # FTI Kermis
 ```blocks
-player.onChat("level1", function () {
+player.onChat("bouw", function () {
     CodeFever.diagonaalSpoor()
     CodeFever.horizontaalSpoor()
     CodeFever.draaiendSpoor()
@@ -14,7 +14,7 @@ player.onChat("level1", function () {
 ```
 
 ```template
-player.onChat("level1", function () {
+player.onChat("bouw", function () {
     builder.teleportTo(pos(0, -1, 0))
     builder.face(SOUTH)
 })
