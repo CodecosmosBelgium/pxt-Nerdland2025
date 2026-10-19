@@ -15,6 +15,7 @@ player.onChat("bouw", function () {
 
 ```template
 player.onChat("bouw", function () {
+    player.execute("/tag @s add bouw_gedaan")
     builder.teleportTo(pos(0, -1, 0))
     builder.face(SOUTH)
 })
